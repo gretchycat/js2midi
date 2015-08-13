@@ -85,7 +85,7 @@ static int hhShift=0;
 // for now just hard-wire us as a generic application input device
 static const int seq_client = SND_SEQ_ADDRESS_SUBSCRIBERS;
 static const int seq_port = 0;
-static const int chan_no = 0;
+static const int chan_no = 10;
 
 int buttons[js_devices][max_buttons];
 int axes[js_devices][max_axes];
